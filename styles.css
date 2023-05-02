@@ -1,0 +1,116 @@
+body {
+    background-color: #eec315;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px auto 200px;
+    color: #ffffff;
+}
+
+.view {
+    margin: 0px;
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+    border: 1px solid #633566;
+    white-space: nowrap;
+}
+
+table {
+    border: 0px solid transparent;
+    border-spacing: 5px;
+}
+
+
+th {
+    background-color: #633566;
+    text-align: center;
+    padding: 5px;
+    color: #fef8e3;
+    font-family: 'docs-Nunito Sans', Arial;
+
+}
+
+.student-name {
+    background-color: #633566;
+    color: #fef8e3;
+    padding: 5px;
+    text-align: left;
+    font-family: 'docs-Nunito Sans', Arial;
+    width: 150px;
+    min-width: 100px;
+    max-width: 150px;
+    left: 0px;
+    height: 30px;
+}
+
+.sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.activity-box {
+    text-align: center;
+    color: #000000;
+    padding: 2px 3px 2px 3px;
+}
+
+img {
+    width: 36px;
+    display: block;
+    margin: auto
+}
+
+.logo {
+    width: 13em;
+}
+
+.home{
+    margin: 200px auto 0px;
+    width: 24em;
+
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #f3eeee;
+    padding: 5px 0 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #d9d2e9;
+}
+
+.btn {
+    background: #633566;
+    background-image: linear-gradient(to bottom, #764879, #633566);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+    width: 15%;
+    margin: 3rem auto 0;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #a562a9, #764879);
+    text-decoration: none;
+}
