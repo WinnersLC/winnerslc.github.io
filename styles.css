@@ -1,8 +1,17 @@
 body {
-    background-color: #eec315;
+    background-color: #00b7bd;
+    /*  Verde   #00b7bd
+    Amarelo #eec315
+    */
+
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fef8e3;
 }
 
 h1 {
@@ -12,8 +21,11 @@ h1 {
 }
 
 .view {
-    margin: 0px;
-    width: 100%;
+    margin: 0px auto 0px;
+    display: block;
+    padding: 5px;
+    width: 94%;
+    height: 80vh;
 }
 
 .wrapper {
@@ -21,6 +33,7 @@ h1 {
     overflow: auto;
     border: 1px solid #633566;
     white-space: nowrap;
+    height: 100%;
 }
 
 table {
@@ -47,13 +60,36 @@ th {
     width: 150px;
     min-width: 100px;
     max-width: 150px;
-    left: 0px;
     height: 30px;
 }
 
 .sticky-col {
     position: -webkit-sticky;
     position: sticky;
+    left: 0px;
+    z-index: 1;
+}
+
+.sticky-first-row {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.sticky-second-row {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 32px;
+    z-index: 1;
+}
+
+.sticky-both {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 2;
 }
 
 .activity-box {
@@ -69,10 +105,11 @@ img {
 }
 
 .logo {
-    width: 13em;
+    width: 12em;
+    margin-top: 20px;
 }
 
-.home{
+.home {
     margin: 200px auto 0px;
     width: 24em;
 
@@ -113,4 +150,18 @@ tr:nth-child(odd) {
     background: #30e3cb;
     background-image: linear-gradient(to bottom, #a562a9, #764879);
     text-decoration: none;
+}
+
+.class-title {
+    background-color: #eec315;
+    color: #fef8e3;
+    font-weight: 700;
+    padding: 5px;
+    text-align: left;
+    font-family: 'docs-Nunito Sans', Arial;
+    width: 150px;
+    min-width: 100px;
+    max-width: 150px;
+    left: 0px;
+    height: 30px;
 }
