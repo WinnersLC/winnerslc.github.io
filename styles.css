@@ -165,3 +165,26 @@ tr:nth-child(odd) {
     left: 0px;
     height: 30px;
 }
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.box {
+    margin: 0px 8px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.legend-img {
+    display: inline;
+    height: 36px;
+    padding: 0px;
+}
+
+.legend-p {
+    display: block;
+    margin: auto;
+    padding: 0px 4px 0px 0px;
+}
