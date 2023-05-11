@@ -142,7 +142,7 @@ tr:nth-child(odd) {
     text-decoration: none;
     display: block;
     width: 15%;
-    margin: 3rem auto 0;
+    margin: 3rem auto 3rem;
     text-align: center;
 }
 
